@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>::Conditionals</title>
+</head>
+<body>
+
+	<h2>Practice Conditionals</h2>
+
+	<script type="text/javascript">
+		
+		// array
+		var gen17 = [ " <br/> Eddy <br/>", " Kingsley <br/>", " Matilda <br/>", " Priscy <br/>", " Rich <br/>"];
+
+
+		// for loop
+
+	/*	for (let i = 0; i < gen17.length; i++) {
+
+			console.log(gen17[i]);
+		}
+
+		//new for loop syntax
+		for( let student of gen17){
+			document.write(student);
+
+		} */
+
+
+		//while loop
+		let i = 2;
+		while(i < gen17.length){
+			//document.write(gen17);
+			document.write("The list of Class of Gen17 are as follows: " + gen17 + "<br />");
+			i++;
+		}
+
+
+		//swich loop
+
+		// for the days of the week
+		
+		let day = 'saturday';
+		switch(day){
+
+			case 'Monday':
+			console.log('This is busy day of all days.');
+			break;
+
+			case 'Tuesday':
+			console.log('This is my day born and is treated with care.');
+			break;
+
+			case 'Wednesday':
+			console.log('This is break even of the week.');
+			break;
+
+			case 'Thursday':
+			console.log('This is much relax day and prepares one for the last day.');
+			break;
+
+			case 'Friday':
+			console.log('This is the day that every worker is looking for.');
+			break;
+
+			default:
+			console.log('Honour this very day because everyday is special.');			
+
+		}
+	</script>
+
+
+
+</body>
+</html>
